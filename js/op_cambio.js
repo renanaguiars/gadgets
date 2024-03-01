@@ -4,7 +4,7 @@ const reais = document.getElementById('reais');
     const paragrafo = document.getElementById('result')
     
     function converter(v, c) {
-        if(v < 0 || c < 0){
+        if(v <= 0 || c <= 0){
             alert('Números negativos não são permitidos!')
             reais.value = '';
             cotacao.value = '';
