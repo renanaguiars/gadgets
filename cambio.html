@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html" style="text-decoration: none; color: white; display: flex; flex-direction: row; justify-content: flex-start; padding: 10px;">Voltar</a>
+    <div class="container">
+        <div id="box">
+            <div id="box-rows">
+                <header id="cabecalho">
+                    <h1>Câmbio</span></h1>
+                    <h4>Digite um valor em reais para obtê-lo em dólares.</h4>
+                </header>
+                <main id="conteudo-principal">
+                    <div class="item-input">
+                        <label for="numero">Cotação Atual:</label>
+                        <input id="cotacao" type="number">
+                    </div>
+                    <div class="item-input">
+                        <label for="numero">Valor (R$):</label>
+                        <input id="reais" type="number">
+                    </div>
+                </main>
+                <footer id="rodape">
+                    <button class="btn-calc">Calcular</button>
+                    <div id="p-group">
+                        <p>Resultado: <span id="result"></span></p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+<script src="js/op_cambio.js"></script>
+</body>
+</html>
